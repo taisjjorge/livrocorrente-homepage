@@ -1,0 +1,83 @@
+
+.div-main-quemSomos {
+    background-color: #F2F5F7;
+    
+}
+
+.container-quemSomos{
+   
+    height: auto;
+    padding-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.img-leitura {
+    width: 50%;
+    text-align: center; 
+    height: 400px;
+}
+
+.inf-quemSomos-parent{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.inf-quemSomos {
+    margin-right: 30px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.inf-quemSomos h1 {
+    font-family: 'Amatic SC', cursive;
+    font-weight:bold;
+    color: rgb(41, 41, 41);
+    margin-bottom: 20px;
+    
+}
+
+.equipe{
+    height: 500px;
+    background-color: #27b2c7;
+}
+
+
+
+/* .linha{ */
+    /* border: 0.5px solid #2093bf; */
+    /* width: 60%;
+    align-self: center;
+    margin: 0px;
+} */
+
+
+
+
+@media(max-width: 768px) {
+    .container-quemSomos{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .img-leitura {
+        width: 100%;
+    }
+
+    .inf-quemSomos {
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        padding: 0px;
+    }
+    
+}
+ 
